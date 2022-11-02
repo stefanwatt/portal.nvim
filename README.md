@@ -139,8 +139,8 @@ A **portal** is a window that displays the jump location, the label required to 
 ### Suggested Keymaps
 
 ```lua
-vim.keymap.set("n", "<leader>o", require("portal").jump_backward, {})
-vim.keymap.set("n", "<leader>i", require("portal").jump_forward, {})
+vim.keymap.set("n", "<leader>o", require("portal").jump_backward(), {})
+vim.keymap.set("n", "<leader>i", require("portal").jump_forward(), {})
 ```
 
 ## Queries
